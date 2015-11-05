@@ -52,6 +52,7 @@ db.packages.insert({
  - **opts** [package_installation_path] -- Path to where this package has to be installed after the Debian dpkg was run
  - **url** -- url to download the source package, ie: http://my.jenkins-server.com/my-appname-source.tar.gz 
  - **building** -- this field is required and the value allways is 0 (zero)
+ 
 #### Mongo OPTIONAL fields
  - **description** -- This is my application description
 
