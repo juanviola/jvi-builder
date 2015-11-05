@@ -1,0 +1,12 @@
+#
+# IMPORTANT!!
+# 
+# Do not use \t character just use spaces 
+#
+
+# Application configuration
+debug: 0       # 1 enanbled, 0 not debug
+runloop: 10    # seconds to wait between loops
+download_dir: /tmp/jvibuilder/downloads
+building_dir: /tmp/jvibuilder/builds
+packages_dir: /tmp/jvibuilder/packages
