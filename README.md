@@ -1,9 +1,9 @@
 # Jvibuilder
 
-JviBuilder will help you to create debian packages from tar.gz source files.
+JviBuilder will help you create debian packages from tar.gz source files.
 
 ### How it works
-This app was created to use in conjuntion with Jenkins (https://jenkins-ci.org/) so, for that reason it takes a tar.gz source file from a specified URL and at the moment do not support creating packages from local files.
+This app was created to be used with Jenkins (https://jenkins-ci.org/) so, for that reason it takes a tar.gz source file from a specified URL. At the moment it does not support creating packages from local files.
 
 ## Installation
 ##### Debian/Ubuntu
@@ -25,9 +25,9 @@ After installing, You'll need to start the jvibuilder daemon. So, enter to the j
 ```sh
 $ ./jvibuilder.py start
 ```
-You can see the logs into the jvi-builder/log directory to see if everythig goes allright.
+You can check the logs in the jvi-builder/log directory to see if everythig is working as expected.
 
-#### Do a manyally push into the mongo database
+#### Do a manual push into the mongo database
 ```sh
 $ mongo 
 ```
@@ -67,7 +67,3 @@ db.packages.insert({
 License
 ----
 [GPL V3](http://www.gnu.org/licenses/gpl-3.0.txt)
-
-
-
-
